@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowtham Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b36e02de39.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/g-logo-circle.png"type="image/x-icon" style="border-radius: 50%;">
+</head>
+<body>
+    <div class="heading">
+        <div class="name">Gowtham</div>
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick='closebtn()'></i>
+          </ul>
+        <i class="fa-sharp fa-solid fa-bars" onclick='openbtn()'></i>
+        </nav>
+    </div>
+    <div class="first-page">
+        <div class="person-contant">
+        <div class="title">Frontend developer</div>
+        <p class="p">Hi,I'am <span>Gowtham</span> Mathiyazhagan from india</p>
+        <p class="para">Frontend developer with a passion for creating visually appealing and user-centric interfaces.
+            Proficient in HTML, CSS, Bootstrap, JavaScript and React with a strong foundation in responsive design and UI/UX
+            principles. Seeking to contribute my skills to a dynamic team and deliver engaging digital
+            experiences.
+            <br>
+            <br>
+            Optimize the frontend code, images, and other assets to reduce page load times. Minimize HTTP requests, use 
+            efficient coding practices, and employ tools like code splitting and caching to enhance performance.Use Git 
+            or other version control systems to track changes in your codebase. This facilitates collaboration with other 
+            developers, helps with issue tracking, and ensures code history is preserved.
+        </p>
+    </div>
+    <img src="/assets/profile.jpg">
+    </div>
+    <div id="about">
+        <div class="title-abt">About Me</div>
+        
+            <ul class="about-ul">
+                <li class="link active" onclick="tablink('skills')">Skills</li>
+                <li class="link" onclick="tablink('education')">Education</li>
+                <li class="link" onclick="tablink('experiences')">Experience</li>
+            </ul>
+            <div class="contant-ul active-contant" id="skills">
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>UI/UX</li>
+                <li>Git and GitHub</li>
+            </ul>
+        </div>
+        <div class="contant-ul" id="education">
+            <ul>
+                <li>B.com-general with 7.5 CGPA (75%) from A.Veeriya Vandayar Memorial Sri Pushpam College (Autonomous) Poondi, Thanjavur -Dt.-613 503, Tamil Nadu (2020- 2023).</li>
+                <li>H.S.C with 75% from Sri Bharathidsan Matriculation Higher Secondary School, Mannargudi, Tamil Nadu (2020)</li>
+                <li>S.S.L.C (Matric) with 66% from Sri Bharathidasan Matriculation Higher Secondary School, Mannargudi, Tamil Nadu (2018)</li>
+            </ul>
+        </div>
+
+        <div class="contant-ul" id="experiences">            <ul>
+                <li>FULL STACK DEVELOPER (TRAINING) - GUVI GEEKS - CHENNAI</li>
+                
+            </ul>
+        </div>
+
+    </div>
+    <div id="service">
+        <div class="container">
+            <div class="title-abt">Services</div>
+            <div class="services-list">
+                <div>
+                    <h1>Web Design</h1>
+                    <p>Test and adjust your frontend code to work correctly on different web browsers. This may involve handling browser-specific CSS and JavaScript quirks and ensuring feature support across various browser versions.</p>
+                    <a href="#contact">Learn More</a>                    
+                </div>
+                <div>
+                    <h1>UI/UX</h1>
+                    <p>Collaborate with designers to create visually appealing and cohesive user interfaces. Pay attention to layout, typography, color schemes, and overall aesthetics to provide an engaging user experience.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+                <div>
+                    <h1>Responsive Images and Media</h1>
+                    <p>Optimize images and media for different devices and screen sizes. Use responsive image techniques, like the picture element, to ensure fast and appropriate loading.</p>
+                    <a href="#contact">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <div class="container">
+            <div class="title-abt">Projects</div>
+            <div class="project-list">
+                 <div class="work">
+                    <img src="/assets/non-veg.jpg " >
+                    <div class="layer">
+                        <h3>Food API</h3>
+                        <p> Yummly offers an API that provides access to a vast collection of recipes, non-vegetarian dishes. You can search for recipes based on various criteria.</p>
+                        <a href="https://gowtham-mathiyazhagan.github.io/Food-API/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Gowtham-Mathiyazhagan/Food-API"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 </div>
+                 <div class="work">
+                    <img src="/assets/calculator.jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Calculators are frequently used for simple arithmetic calculations such as addition, subtraction, multiplication, and division. They make it easy to perform calculations quickly and without errors.</p>
+                        <a href="https://gowtham-mathiyazhagan.github.io/Simple_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Gowtham-Mathiyazhagan/Simple_Calculator"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 </div>
+                 <div class="work">
+                    <img src="/assets/employee.jpg">
+                    <div class="layer">
+                        <h3>Employee Form</h3>
+                        <p> Employee form lists are essential for maintaining accurate and up-to-date records of all employees. HR departments use these forms to store and manage employee data securely. </p>
+                        <a href="https://gowtham-mathiyazhagan.github.io/CRUD-Operation/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/Gowtham-Mathiyazhagan/CRUD_method"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="title-abt">Contact Me</div>
+        <div class="container">
+        <div class="contact-row">
+            <div class="contact-left">
+                <p><i class="fa-brands fa-telegram"></i>gowthammathi07@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i>9994092559</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/gowtham-mathiyazhagan-4b222423b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Gowtham-Mathiyazhagan?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sedulous_gm/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/Sedulous_GM"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="/assets/Gowtham M.pdf" class="cv" download="download">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input name="name" type="text" placeholder="Enter your name" required tabindex="-1" autocomplete="off">
+                    <input name="email" type="email" placeholder="Enter your email" required autocomplete="off">
+                    <textarea name="message" cols="30" rows="10" placeholder="Massage"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                    <div id="msg"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> Gowtham. join with us...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
